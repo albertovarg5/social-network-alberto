@@ -1,0 +1,7 @@
+For this assignment, I used a graph to create a simple social network. I think a graph is the best choice because people can have many friendships, and those friendships connect different people. Each person is a node, and each friendship is an edge. This makes it easy to show how people are connected.
+
+A regular list would not work as well because it would only store the people without clearly showing their relationships. A tree would also be difficult to use because it has a parent and child structure. In a real social network, people can have friends in different groups, and there is no single person at the top. A graph lets people connect in different ways.
+
+For my program, I used a dictionary to store the people and a list to store each person's friends. The dictionary makes it easy to find someone by their name. Adding a friendship is also simple because I just add each person to the other person's friends list.
+
+One thing I noticed is that checking for duplicate friendships takes more time as someone's friend list gets bigger. Printing the whole network also takes more time when there are more people and friendships. However, I think this approach works well for a small project because it is easy to understand and organize. I also tested duplicate people and friendships with someone who does not exist.
